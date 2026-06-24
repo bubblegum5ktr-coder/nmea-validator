@@ -1,17 +1,17 @@
 # NMEA 日志解析 & 校验工具
 
-针对 GNSS/RTK 设备 NMEA-0183 输出日志的解析和自动化校验工具。适用于中海达 RTK 接收机等设备的测试场景。
+针对 GNSS/RTK 设备 NMEA-0183 输出日志的解析和自动化校验工具。
 
-> A parsing and validation tool for NMEA-0183 logs from GNSS/RTK devices. Designed for testing Hi-Target RTK receivers and similar equipment.
+> A parsing and validation tool for NMEA-0183 logs from GNSS/RTK devices.
 
 ## 背景 / Background
 
-中海达的 RTK 接收机 / GNSS 接收机板卡通过串口/TCP 输出 NMEA-0183 格式的定位数据。测试工程师需要：
+RTK 接收机 / GNSS 接收机板卡通过串口/TCP 输出 NMEA-0183 格式的定位数据。测试工程师需要：
 - 看懂原始 NMEA 数据，确认设备输出正确
 - 自动校验定位质量、坐标范围、差分状态
 - 批量跑历史日志，快速定位问题数据
 
-> Hi-Target RTK/GNSS receivers output NMEA-0183 positioning data via serial/TCP. QA engineers need to parse raw logs, validate fix quality & coordinate ranges, and batch-process historical logs to quickly identify anomalies.
+> RTK/GNSS receivers output NMEA-0183 positioning data via serial/TCP. QA engineers need to parse raw logs, validate fix quality & coordinate ranges, and batch-process historical logs to quickly identify anomalies.
 
 ## 支持的 NMEA 语句 / Supported Sentences
 
